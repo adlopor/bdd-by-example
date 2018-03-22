@@ -1,0 +1,29 @@
+{
+    "name": "sgomez/bdd-by-example",
+    "description": "Código de la charla del día 6",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Gómez",
+            "email": "sergio@uco.es"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "^3.4",
+        "phpspec/phpspec": "^4.3",
+        "leanphp/phpspec-code-coverage": "^4.2",
+        "phpunit/phpunit": "^7.0"
+    }
+}

@@ -1,0 +1,6 @@
+var/
+vendor/
+composer.lock
+behat.xml
+phpspec.xml
+phpunit.xml

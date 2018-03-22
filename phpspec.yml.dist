@@ -1,0 +1,9 @@
+formatter.name: pretty
+extensions:
+    LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
+        format:
+            - 'html'
+        output:
+            html: 'var/coverage'
+        whitelist:
+            - 'src'

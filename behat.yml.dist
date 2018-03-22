@@ -1,0 +1,5 @@
+default:
+    formatters:
+        pretty:
+            output_styles:
+                comment: [ 'magenta' ]
